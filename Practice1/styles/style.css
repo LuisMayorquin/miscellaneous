@@ -1,0 +1,63 @@
+body {
+    padding-top: 50px;
+    height: 100%;
+    background-image: url(/assets/imagenes/pexels-photo-851555.webp);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.fondo {
+  width: 100%;
+  background-color: rgba(238, 222, 201, 0.356);
+  margin: auto;
+  padding: 30px 50px 2px 50px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.in {
+  margin: 10px 10px 10px 10px;
+  width: 40%;
+  min-height: 2em;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(97, 57, 6);
+  outline-color: rgb(204, 194, 183);
+  background-color: rgb(228, 228, 216);
+}
+
+.txta {
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+    border-radius: 10px;
+    border-color: rgb(97, 57, 6);
+    border-width: 3px;
+    background-color: rgb(228, 228, 216);
+    outline-color: rgb(204, 194, 183);
+}
+
+button {
+    cursor: pointer;
+    width: 90px;
+    margin-bottom: 15px;    
+    background-color: rgb(186, 174, 148);
+    border: 2px solid rgb(97, 57, 6);
+}
+button:hover  {
+    background-color:rgb(202, 187, 150);
+}
+
+/*propiedad para alinear contenido*/
+/*float: right or left: it depends*/ 
+/*-----------------------------------*/
+/*propiedades para hacer minimo de ancho o alto tipo responsive*/
+/* min=width: numberpx;*/ /*max-width*/
+/*-------------------------------------*/
+/*propiedad para hacer espacio entre lineas de texto*/
+/*line-height: numberpx;*/
+/*--------------------------------------------------*/
+/*propiedad para estilizar listas*/
+/*list-style; none; or any other value*/
